@@ -18,6 +18,7 @@ Temos a página principal, que é a página da editora. Lá ela pode ver os pedi
 Os pedidos são pedidos de remessas de livros feitos pelas Livrarias
 
 >>Apenas Livrarias cadastradas podem fazer pedidos. 
+
 >>Apenas a editora, através da sua página principal, pode adicionar novas Livrarias Parceiras.
 
 Temos também a página dedicada das livrarias. Lá elas podem criar os pedidos, inserindo nome do livro, quantidade de livros e Livraria
@@ -25,7 +26,9 @@ Temos também a página dedicada das livrarias. Lá elas podem criar os pedidos,
 =>Sobre o Status
 É a forma de organizar os pedidos.
 >Pedidos com o status de FEITO só indica que foi um pedido criado
+
 >Pedidos com o Statur de Aprovado é um pedido que foi aprovado pela editora e seu valor já foi atribuido 
+
 >Pedidos com o Status PAGO são aqueles em que o pagamento foi efetuado e ENVIADO para aqueles pedidos qeu já foram enviados as livrarias
 
 
