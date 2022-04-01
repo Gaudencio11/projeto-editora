@@ -17,8 +17,8 @@ Conficurações Iniciais:
 Temos a página principal, que é a página da editora. Lá ela pode ver os pedidos que foram realizados e seus STATUS.
 Os pedidos são pedidos de remessas de livros feitos pelas Livrarias
 
->>Apenas Livrarias cadastradas podem fazer pedidos 
->>Apenas a editora, através da sua página principal, pode adicionar novas Livrarias Parceiras 
+>>Apenas Livrarias cadastradas podem fazer pedidos. 
+>>Apenas a editora, através da sua página principal, pode adicionar novas Livrarias Parceiras.
 
 Temos também a página dedicada das livrarias. Lá elas podem criar os pedidos, inserindo nome do livro, quantidade de livros e Livraria
 
