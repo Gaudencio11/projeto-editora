@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body class="container">
+    <h1>Altere Um Pedido</h1>
+    <header>
+        <div class="logo-container  ">
+            <div class="mt-3">
+                <a href="/" class="btn btn-primary">Voltar Área da Editora</a>
+            </div>
+                
+        </div>
+    </header>
+    <form th:object="${requisicaoNovaLivraria}" action="/salvar-livraria" method="post" style="width: 50%;">
+        
+        <!-- div></div>Utilizar aqui o <plaintext></plaintext> -->
+        
+        <div class="mb-3">
+            
+            <label for="nome">Nome da Livraria:</label>
+            <input th:field = "*{nome}" class="form-control">
+            <small>Informe o nome da Livraria</small>
+            <div th:errors = "*{nome}">
+            </div>
+        </div>
+        
+        <div class="mb-3">
+            <label for="cnpj">CNPJ da livraria:</label>
+            <input th:field = "*{cnpj}" class="form-control">
+            <small>Informe o cnpj da Livraria</small>
+            <div th:errors = "*{cnpj}">
+            </div>
+        </div> 
+
+        <button type="submit" class="btn btn-outline-success">Enviar</button>
+    </form>
+</body>
+</html>
